@@ -1,5 +1,12 @@
 package main
 
+import "fmt"
+
+var name = "Frontend Masters"
+
 func main() {
-	print("Hello from a module")
+	fmt.Print("dfdf")
+
+	// function-scoped variable
+	printData()
 }
